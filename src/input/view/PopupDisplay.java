@@ -9,12 +9,9 @@ import javax.swing.JOptionPane;
 
 public class PopupDisplay
 {
-
 	public String getAnswer(String input)
 	{
 		String answer = "";
-		
-		return answer;
 		
 		answer = JOptionPane.showInputDialog(null, input);
 		
