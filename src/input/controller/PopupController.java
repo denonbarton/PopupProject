@@ -45,7 +45,7 @@ public class PopupController
 			tempWeight = myPopups.getAnswer("Give me a valid double value!");
 		}
 		
-		if(!isDouble(tempWeight))
+		if(isDouble(tempWeight))
 		{
 			weight = Double.parseDouble(tempWeight);
 		}
