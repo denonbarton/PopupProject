@@ -36,7 +36,7 @@ public class PopupController
 			age = -12345678;
 		}
 		
-		myPopups.displayResponse("You typed in" + age);
+		myPopups.displayResponse("You typed in " + age);
 		
 		double weight;
 		String tempWeight = myPopups.getAnswer("Type in your weight");
